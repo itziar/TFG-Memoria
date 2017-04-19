@@ -1,0 +1,248 @@
+\cleardoublepage
+\chapter{Estado del arte}
+
+
+En este capítulo se describen las tecnologías utilizadas para la realización de la aplicación.
+
+\section{Python} 
+\label{sec:python}
+
+
+Python fue desarrollado a finales de los 80 por Guido van Rossum en los Países Bajos, como sucesor del lenguaje de programación ABC, capaz de maneja excepciones  e interactuar con el sistema operativo Amoeba.
+
+
+El nombre de Python proviene de la afición de van Rossum, a los humoristas británicos Monty Python.
+
+
+Desde el principio se buscó que fuera un lenguaje divertido a la hora de utilizarlo y es muy común utilizar variables que hacen referencia a sketchs de los Monty Python en lugar de utilizar las variables tradicionales.
+
+
+Es un lenguaje que destaca por ser rápido, potente, comportarse bien con otros lenguajes, ser compatible con los diversos sistemas operativos más utilizados, fácil de aprender y de código abierto. También podemos destacar que, Python es un lenguaje de alto nivel que permite realizar operaciones complejas en pocas líneas de código, lo que facilita escribir programas en menos tiempo, y dedicarle más tiempo al diseño y a la depuración del código.
+
+
+Existen tres versiones principalmente, con 1.6, 2.7 y 3.5 como las últimas actualizaciones. 
+
+
+Es destacable indicar que las versiones 2.7 y 3.4 son incompatibles entre sí, ya que existen un gran número de diferencias entre ellas.
+
+
+El desarrollo y promoción se realiza a través de la organización Python Software Foundation, destacando su carácter Open Source.
+
+
+Dado que el lenguaje es interpretado, no es necesario que se realice compilación. Cabe destacar también, que es un lenguaje dinámicamente tipado con lo que puede indicarse el tipo en cualquier momento, no es necesario declararlos en un método; además de ser dinámicamente tipado es un lenguaje fuertemente tipado, con lo que una vez declarada una variable con un tipo, esta no puede realizar una violación de tipos de datos, sino que previamente deberá ser convertida. A parte de lo mencionado anteriormente, cabe destacar que Python es “case sensitive”, es decir, diferencia entre mayúsculas y minúsculas. 
+
+
+Python es un lenguaje de programación multiparadigma, es decir, permite varios estilos de programación: programación orientada a objetos, programación imperativa y programación funcional. 
+
+
+Si se necesita crear un nuevo módulo para integrarlo se puede realizar fácilmente en C o C++.
+
+
+Por último, resaltar que, los usuarios de Python se refieren a menudo a la Filosofía Python que es bastante análoga a la filosofía de Unix. El código que sigue los principios de Python de legibilidad y transparencia se dice que es “pythonic”. Contrariamente, es bautizado como “unpythonic”. Estos principios fueron famosamente descritos por el desarrollador de Python, Tim Peters, en The Zen of Python:
+
+
+Beautiful is better than ugly. 
+Explicit is better than implicit
+Simple is better than complex. 
+Complex is better than complicated. 
+Flat is better than nested. 
+Sparse is better than dense. 
+Readability counts. 
+Special cases aren’t special enough to break the rules. 
+Although practicality beats purity. 
+Errors should never pass silently. 
+Unless explicitly silenced. 
+In the face of ambiguity, refuse the temptation to guess. 
+There should be one– and preferably only one –obvious way to do it. 
+Although that way may not be obvious at first unless you’re Dutch. 
+Now is better than never. Although never is often better than *right* now. 
+If the implementation is hard to explain, it’s a bad idea. 
+If the implementation is easy to explain, it may be a good idea. 
+Namespaces are one honking great idea – let’s do more of those!
+
+
+
+\section{Django} 
+\label{sec:django}
+
+
+Django es un framework de desarrollo web Open Source, escrito en Python. Fue desarrollado inicialmente para gestionar páginas de noticias de la World Company de Lawrence, Kansas, pero en 2005 fue liberada bajo la licencia BSD.
+
+
+El nombre de Django proviene del guitarrista de Jazz gitano Django Reinhardt.
+
+
+Desde 2008, Django Software Foundation se hizo cargo de desarrollarlo y promocionarlo.
+
+
+Su filosofía principal es facilitar la creación de sitios web complejos, facilitar la reutilización de elementos (creando módulos independientes), disminuir la cantidad de código, dar prioridad a lo explícito frente a lo implícito (cualidad heredada de Python, como vimos anteriormente Explicit is better than implicit), ser consistente en todos los niveles y evitar repetir código o información, siento una de sus principales citas “Don’t repeat yourself (DRY)”
+
+
+Se basa en el paradigma Modelo-Vista-Controlador. Consiste en separar los datos y la lógica de negocio de una aplicación (modelo) de la interfaz de usuario (vista)  y del módulo encargado de gestionar las comunicaciones (controlador).  Aunque el controlador es llamado vista y la vistas template. 
+
+
+Para su compresión, Django se puede dividir en 5 grandes bloques:
+
+\begin{itemize}
+\item API de la base de datos: Django soporta abstracciones para interactuar con la base de datos de forma muy sencilla. Sus principales objetivos consisten en lograr eficiencias en el acceso a la base de datos, intentando reducir el número de accesos a la misma.
+\item Models o modelos: es la definición de los elementos que se almacenan en la base de datos, en general cada modelo equivale a una tabla en la base de datos. Los modelos deberían incluir toda la lógica sobre ellos mismos, desde el tipo de datos que almacena hasta los campos para ser interpretados por los humanos,  para una mejor comprensión de un determinado modelo y una mayor organización.
+\item URLs: es la interfaz entre el cliente y el servidor. Su filosofía defiende desemparejar las URLs de las funciones para una mayor reutilización, además deben ser flexibles.
+\item Views o vistas: son funciones Python que recibe una petición y devuelven una respuesta. Esta respuesta puede ser cualquier cosa. La vista contiene la lógica para devolver esa respuesta. Las vistas deben tener acceso a un objeto petición que contenga la información de solicitud (siempre se recibe este objeto como parámetro). 
+\item Templates o plantillas: presenta un sistema para renderizar o generar dinámicamente la respuesta a una petición a partir de unas plantillas previamente creadas y un contexto, que puede variar dependiendo de la petición de la URL, de la información disponible en la base de datos o del usuario que realice la petición. Además busca evitar la redundancia, basándose en que la mayor parte de las páginas web dinámicas comparten gran parte del diseño. 
+\end{itemize}
+
+
+Django tiene una gran comunidad de usuarios que defienden al igual que Python las buenas prácticas de programación y que el código sea legible.
+Por último una herramienta muy útil que ofrece Django es la API Rest Framework. Se trata de una herramienta muy potente y flexible que facilita mucho el desarrollo del backend , ya que cuenta con acceso rápido a los objetos de la base de datos.
+
+\section{Mezzanine} 
+\label{sec:mezzanine}
+
+Un CMS (Content Management System) es una colección de scripts (o archivos de procesamiento por lotes) que permiten crear una estructura de soporte para la creación y administración de contenidos de una manera ágil e intuitiva. Además, separan el contenido de la presentación del sitio.
+
+
+Se trata de herramientas que permiten crear y mantener un Web con facilidad, encargándose de los trabajos más tediosos que hasta ahora ocupaban el tiempo de los administradores de las Webs. 
+
+
+Los CMS proporcionan un entorno que posibilita la actualización, mantenimiento y ampliación de la web con la colaboración de múltiples usuarios.
+
+
+Mezzanine es una plataforma de gestión de contenidos de gran alcance, consistente y flexible. Construida bajo Django, Mezzanine provee una arquitectura altamente extensible y simple. Mezzanine posee una licencia BSD (al igual que Django) y apoyo de una comunidad diversa y activa.
+
+
+En algunos aspectos, Mezzanine se asemeja mucho a Wordpress, proporciona una interfaz intuitiva para el manejo de páginas, blogs, datos de formulario, productos de tienda y otros tipos de contenido. Pero también es diferente. Mezzanine proporciona mucha funcionalidad por defecto, como por ejemplo los blogs que es una de las aplicaciones que se pueden instalar al crear una nueva aplicación Mezzanine. Este enfoque proporciona una plataforma más integrada y eficiente.
+
+
+Algunas de sus principales características son:
+
+
+\begin{itemize}
+\item Navegación semántica
+\item Integración con Bootstrap, disqus, bit.ly o Google Analytics 
+\item Formularios HTML5 que permiten drag\&drop y edición inline
+\item Widget configurables
+\item Etc.
+\end{itemize}
+
+
+\section{HTML5} 
+\label{sec:html5}
+
+
+HTLM5 es la quinta versión del lenguaje de marcado HTML.
+
+
+Con HTML5 los navegadores web más importantes (Firefox, Chrome, Safari e Internet Explorer) pueden saber cómo mostrar una determinada página web, saber dónde están sus elementos e incluso saber dónde colocar el contenido. La diferencia principal entre HTML5 con las versiones anteriores de HTML es el nivel de sofisticación del código.
+
+
+Esta nueva versión de HTML, proporciona la visualización de contenido multimedia incluso sin estar conectado a la red, evitando el uso de Flash. Incluye nuevos elementos y atributos que reflejan el uso típico de los sitios web modernos. 
+
+
+HTML (HyperText Markup Language). Es un lenguaje de marcado,  utilizado para la elaboración de páginas web.
+
+
+Los documentos HTML comienzan con una declaración para indicar que versión de HTML se está utilizando. El lenguaje está formado por elementos que indican el tipo de contenido que presentan entre su apertura y su cierre, pudiendo anidarse unos elementos dentro de otros. El primer elemento, escrito después de la declaración, es la etiqueta html que se anida directamente con una etiqueta head y una etiqueta body.
+
+\begin{itemize}
+\item Elemento HEAD: contiene principalmente información general acerca de la página como puede ser el título, la descripción, las keywords, etc. Además suele incluir las referencias a archivos externos, como las hojas de estilo (archivos CSS) y scripts (archivos o código JavaScript), que son utilizados en la propia página. Aunque estos dos elementos (CSS y JS) se pueden incluir directamente, es preferible que se incluyan en documentos externos y limitarse a poner una simple referencia en el HTML.
+\item Elemento BODY: contiene el contenido propio de la página.
+Generalmente, cada elemento se indica con una etiqueta de inicio y una etiqueta de fin, aunque hay elementos que se pueden abrir y cerrar en una simple etiqueta,  pudiendo incluso contener atributos. Los atributos están formados por par nombre-valor, aunque algunos pueden carecer de valor, y se utilizan para definir características de ese elemento y/o para identificarlos (mediante un atributo id que será único o un atributo class que puede ser compartido por varios elementos).
+\end{itemize}
+
+
+\section{CSS3} 
+\label{sec:css3}
+
+
+Las hojas de estilo en cascada, CSS (Cascade Style Sheets) es el lenguaje utilizado para describir la presentación de documentos HTML o XML, aunque también es utilizado para modificar la interfaz de usuario. Aparte de aplicar estilos visuales, es capar de aplicar estilos no visuales, como las hojas de estilo auditivas. 
+
+
+Para ser incluido en un archivo HTML basta con incluir la etiqueta style indicando el valor de estilo de dicho elemento, también se puede utilizar añadiendo el atributo style dentro de un elemento. La mejor opción de todas es incluir un link a un archivo con extensión css, en la cabecera del documento HTML.
+
+
+En 1995, el W3C apostó por desarrollar el estándar CSS, llegando a 1996 donde se publicaría la primera versión. 
+
+
+CSS3 es la tercera versión de CSS, ofrece unas opciones verdaderamente importantes que cubren las necesidades del diseño web actual.
+
+
+CSS3 está dividido en diferentes archivos, llamados módulos. Cada módulo añade nuevas funcionalidades a las definidas por CSS2. 
+
+\section{JavaScript} 
+\label{sec:javascript}
+
+
+JavaScript o simplemente JS, es un lenguaje de programación interpretado que se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico. 
+
+
+Usado principalmente en el desarrollo de aplicaciones web en el lado del cliente, aunque también es utilizado en el lado del servidor. Su uso en aplicaciones externas a la web es también significativo.
+
+
+Se empezó a desarrollar a principios de los 90, momento en el que los desarrolladores web necesitaban servir sitios web donde los usuarios pudieran interactuar con ellos, en ese momento las páginas web eran estáticas (HTML junto con CSS). Al estar al lado del cliente, no requiere compilación y es el navegador encargado de interpretar el código.
+
+
+A pesar del nombre, no es un lenguaje similar a Java, ni tampoco tiene el mismo propósito. Su nombre proviene de la popularidad que, en el momento del desarrollo de JS, tenía Java. Surgieron varias versiones similares a JS, hasta que se estandarizó como ECMAScript, para evitar incompatibilidades en los navegadores.
+
+
+\section{AJAX} 
+\label{sec:ajax}
+
+
+AJAX (Asynchronous JavaScript And XML) es una tecnología que permite enviar y recibir información desde el servidor al cliente, permitiendo desarrollar aplicaciones web más atractivas.
+
+
+Este envío de información se realiza a través de una comunicación asíncrona con el servidor, siendo posible realizar cambios en la página sin que los clientes la recarguen.
+
+
+AJAX no es una tecnología basada únicamente en JS, sino que también se basa en HTM y CSS para mostrar el contenido.
+
+
+Esta tecnología permite el diseño de webs más eficientes al poder solicitar solo la información requerida, aprovechando los datos cargados previamente; a parte, permite crear aplicaciones más fluidas y dinámicas de cara al usuario final.
+
+\section{jQuery} 
+\label{sec:jquery}
+
+jQuery es la biblioteca de JavaScript más utilizada. 
+
+
+jQuery es una biblioteca creada por John Resig. Fue presentada el 14 de enero de 2006 en el BarCamp NYC. Es de software libre y posee un doble licenciamiento bajo la licencia MIT y la Licencia Pública General de GNU v2, permitiendo su uso en proyectos libres y privados
+
+
+Esta biblioteca facilita el acceso y la manipulación del árbol DOM, el manejo de eventos y la modificación de estilos (CSS), además de desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web.
+
+
+\section{Bootstrap} 
+\label{sec:bootstrap}
+
+
+Bootstrap es un framework que permite al desarrollador despreocuparse en gran medida del diseño y apariencia al realizar una aplicación web. Está basado en HTML y CSS separando por completo dichos lenguajes en documentos distintos, lo que permite que una plantilla pueda ser modificada fácilmente por el desarrollador. Las plantillas generalmente también incluyen archivos JavaScript para aportar a la página un diseño más atractivo.
+Fue desarrollado inicialmente por Mark Otto y Jacbod Thornton de Twitter para fomentar la consistencia entre las herramientas internas.  En agosto del 2011 Twitter liberó Bootstrap como código abierto. En febrero del 2012, se convirtió en el proyecto de desarrollo más popular de GitHub.
+
+
+\section{JSON} 
+\label{sec:json}
+
+
+JavaScript Object Notation (JSON) es un formato ligero para el intercambio de datos. Es fácil de leer y escribir para los humanos, además también es fácil de generar y parsear por los ordenadores.
+
+
+Es un formato muy utilizado en la actualidad para enviar información desde un servidor a un cliente ante una petición AJAX, siendo dicha información interpretada por código JavaScript en el cliente, con lo que permite trabajar con estos datos como si se tratase de cualquier otra variable.
+
+
+
+\section{AMAZON WEB SERVICE (AWS)} 
+\label{sec:aws}
+
+Amazon Web Services (AWS) es el conjunto de servicios web (computación en la nube) que forman una plataforma de Cloud Computing ofrecida por Amazon.com y es uno de los proveedores de la computación en nube más importantes de todo el planeta.
+
+
+Todos los servicios que se ofrecen en Amazon Web se clasifican en distintos grupos, los más importantes serán almacenamiento, bases de datos, entrega de contenido, mensajería y procesamiento de datos. Muchas son las aplicaciones que utilizan los servicios de Amazon Web, algunas tan populares como Dropbox, Foursquare o HootSuite entre otras. Además, AWS compite directamente con otros servicios tan importantes como Microsoft Azure y Google Cloud Platform.
+
+
+De todos los servicios disponibles en AWS se ha escogido EC2.
+
+
+Amazon Elastic Compute Cloud (Amazon EC2) es el servicio web de Amazon que ofrece en la nube capacidad informática de tamaño modificable. La función de este servicio reside en facilitar a los desarrolladores recursos informáticos escalables y basados en la Web, pagando por su uso en cada instante. La interfaz que tiene este servicio es tan sencilla que permite obtener y configurar la capacidad de manera simple teniendo un control completo sobre los recursos informáticos del cliente.
+
+
+

@@ -1,0 +1,49 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{7}
+\contentsline {section}{\numberline {1.1}Presentaci\IeC {\'o}n}{7}
+\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n Personal:}{8}
+\contentsline {section}{\numberline {1.3}Estructura de la memoria}{9}
+\contentsline {chapter}{\numberline {2}Objetivos}{11}
+\contentsline {section}{\numberline {2.1}Objetivo general}{11}
+\contentsline {section}{\numberline {2.2}Objetivos espec\IeC {\'\i }ficos}{11}
+\contentsline {chapter}{\numberline {3}Estado del arte}{13}
+\contentsline {section}{\numberline {3.1}Python}{13}
+\contentsline {section}{\numberline {3.2}Django}{15}
+\contentsline {section}{\numberline {3.3}Mezzanine}{16}
+\contentsline {section}{\numberline {3.4}HTML5}{17}
+\contentsline {section}{\numberline {3.5}CSS3}{18}
+\contentsline {section}{\numberline {3.6}JavaScript}{19}
+\contentsline {section}{\numberline {3.7}AJAX}{19}
+\contentsline {section}{\numberline {3.8}jQuery}{19}
+\contentsline {section}{\numberline {3.9}Bootstrap}{20}
+\contentsline {section}{\numberline {3.10}JSON}{20}
+\contentsline {section}{\numberline {3.11}AMAZON WEB SERVICE (AWS)}{21}
+\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o e implementaci\IeC {\'o}n}{23}
+\contentsline {section}{\numberline {4.1}Arquitectura general}{23}
+\contentsline {section}{\numberline {4.2}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del servidor}{24}
+\contentsline {subsection}{\numberline {4.2.1}Modelos de la base de datos}{24}
+\contentsline {subsection}{\numberline {4.2.2}Tipo de usuarios}{26}
+\contentsline {section}{\numberline {4.3}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del cliente}{27}
+\contentsline {subsection}{\numberline {4.3.1}Vistas de las p\IeC {\'a}ginas}{27}
+\contentsline {subsubsection}{P\IeC {\'a}gina de inicio}{28}
+\contentsline {subsubsection}{P\IeC {\'a}gina del Perfil de Usuario}{28}
+\contentsline {subsubsection}{P\IeC {\'a}gina del Foro}{31}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Propuestas}{32}
+\contentsline {subsubsection}{P\IeC {\'a}gina de una Propuesta}{33}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Actividades}{35}
+\contentsline {subsubsection}{P\IeC {\'a}gina de una Actividad}{36}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Ofertas}{38}
+\contentsline {subsubsection}{P\IeC {\'a}gina de una Oferta}{40}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Informaci\IeC {\'o}n de Inter\IeC {\'e}s}{41}
+\contentsline {subsubsection}{P\IeC {\'a}gina de una Informaci\IeC {\'o}n de inter\IeC {\'e}s }{43}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Pol\IeC {\'\i }tica de Cookies}{44}
+\contentsline {subsubsection}{P\IeC {\'a}ginas de Sitemaps}{45}
+\contentsline {subsubsection}{Vista del panel de administraci\IeC {\'o}n}{46}
+\contentsline {chapter}{\numberline {5}Evaluaci\IeC {\'o}n del resultado}{47}
+\contentsline {chapter}{\numberline {6}Conclusiones}{49}
+\contentsline {section}{\numberline {6.1}Conocimientos aplicados}{49}
+\contentsline {section}{\numberline {6.2}Conocimientos adquiridos}{50}
+\contentsline {section}{\numberline {6.3}Trabajos futuros}{51}
+\contentsline {chapter}{Bibliograf\'{\i }a}{53}
+\contentsline {chapter}{\numberline {A}Instalaci\IeC {\'o}n y Uso}{55}
+\contentsline {chapter}{\numberline {B}Publicaci\IeC {\'o}n}{57}
