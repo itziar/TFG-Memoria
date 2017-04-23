@@ -84,6 +84,91 @@ Dentro de la aplicación se distinguen tipos de usuarios, con distintos roles y 
 \end{itemize}
 
 
+\subsection{AMAZON WEB SERVICE + APACHE} 
+\label{subsec:aws_apache}
+
+La aplicación se ha desplegado en una máquina EC2 de Amazon Web Service usando una cuenta gratuita para estudiantes de duración de un año.
+
+Para crear la máquina se ha escogido las siguientes opciones:
+\begin{itemize}
+\item El sistema operativo es: Ubuntu 14.04 LTS con una capacidad total de 8GB.
+\item Una instancia de tipo t2.micro: 1 GiB de memoria, 1 vCPU solo para EBS y plataforma de 32 bits o 64 bits. Las instancias T2 son instancias de desempeño con ráfagas que proporcionan un nivel base de desempeño de la CPU con la posibilidad de alcanzar ráfagas por encima del nivel básico. Las instancias de este tipo son ideales para aplicaciones que no usan la CPU por completo, a menudo o de manera constante, pero que de vez en cuando tienen que alcanzar ráfagas (por ejemplo, servidores web, entornos para desarrolladores y bases de datos). En este caso es una máquina de 64bits.
+\end{itemize}
+
+En las siguientes imágenes se pueden ver las diferentes características de la máquina creada:
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm]{img/cpuinfo}
+   \caption{Salida de la ejecución del comando cat /proc/cpu/info }
+   \label{figura:cpuinfo}
+\end{figure}
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm]{img/dmidecode}
+   \caption{Salida de la ejecución del comando sudo demidecode -t 4}
+   \label{figura:dmidecode}
+\end{figure}
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm]{img/lsb_release}
+   \caption{Salida de la ejecución del comando lsb\_release -a}
+   \label{figura:lsb_release}
+\end{figure}
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm]{img/lscpu}
+   \caption{Salida de la ejecución del comando lscpu}
+   \label{figura:lscpu}
+\end{figure}
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm]{img/lshw}
+   \caption{Salida de la ejecución del comando lshw}
+   \label{figura:lshw}
+\end{figure}
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm]{img/meminfo}
+   \caption{Salida de la ejecución del comando cat /proc/meminfo}
+   \label{figura:meminfo}
+\end{figure}
+
+
+Para la configuración de Apache, primero se debe instalar usando el comando: 
+
+\begin{verbatim}
+	apt-get install apache2
+\end{verbatim}
+
+Para poder servir aplicaciones Django desde un servidor Apache, lo más habitual es añadir el módulo mod\_wsgi, que permite servir aplicaciones hechas en Python, que tengan soporte para la interfaz WSGI (Como es el caso de Django y en este caso también de Mezzanine).
+
+
+Para ello se instala el paquete del repositorio:
+\begin{verbatim}
+	sudo apt-get install libapache2-mod-wsgi
+\end{verbatim}
+
+A continuación se configuró el host virtual de Apache. Un virtual host permite mantener múltiples nombres de host en Apache. Gracias a ello, se puede decirle a Apache que redirija las peticiones procedentes de una URL determinada, a una aplicación concreta.
+
+Para generar la configuración del host virtual, se creó un archivo en /etc/apache2/sites-available/ con el nombre de Welpe.
+
+La configuración usada se muestra en la siguiente captura:
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm]{img/welpe_conf}
+   \caption{Fichero de configuración en Apache}
+   \label{figura:welpe_conf}
+\end{figure}
+
+Después de configurar el anterior fichero, se activó el host virtual y se reinició el servidor mediante:
+\begin{verbatim}
+	sudo a2ensite Welpe
+	sudo /etc/init.d/apache2 restart
+\end{verbatim}
+
+
 \section{Diseño e implementación del cliente} 
 \label{sec:cliente}
 
