@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.2)  8 APR 2017 20:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.2)  23 APR 2017 12:16
 entering extended mode
 **memoria_def.tex
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\memoria_def.tex
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\memoria_def.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -585,7 +585,7 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\memoria_def.aux)
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\memoria_def.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
@@ -657,7 +657,7 @@ Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box38
 \c@lstlisting=\count140
- (C:\Users\Itzi\Desktop\TFG\memoria_urjc\portada.tex
+ (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\portada.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -686,32 +686,32 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 
 
 {C:/Users/Itzi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Itz
-i/Desktop/TFG/memoria_urjc/img/logo_vect.png>])
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\dedicatoria.tex [1] [2
+i/Desktop/TFG/TFG-Memoria/img/logo_vect.png>])
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\dedicatoria.tex [1] [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 )
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\agradecimientos.tex [1] [2
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\agradecimientos.tex [1] [2
 
 ])
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\resumen.tex [3] [4
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\resumen.tex [3] [4
 
 ])
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\summary.tex [5] [6
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\summary.tex [5] [6
 
 ])
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\indice.tex [1] [2
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\indice.tex [1] [2
 
 ]
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\memoria_def.toc
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\memoria_def.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
  [3])
 \tf@toc=\write4
  [4]
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\memoria_def.lof)
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\memoria_def.lof)
 \tf@lof=\write5
 ) [5
 
@@ -719,19 +719,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 ] [6
 
 ]
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\introduccion.tex
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\introduccion.tex
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 [7
 
-] [8]) (C:\Users\Itzi\Desktop\TFG\memoria_urjc\objetivos.tex [9] [10
+] [8]) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\objetivos.tex [9] [10
 
 ]
 Cap\'{\i }tulo 2.
 [11
 
-]) (C:\Users\Itzi\Desktop\TFG\memoria_urjc\estadodelarte.tex [12]
+]) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\estadodelarte.tex [12]
 Cap\'{\i }tulo 3.
 [13
 
@@ -743,12 +743,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [15] [16] [17] [18] [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20])
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\design_implement.tex [21] [22
+ [20]
+[21]
+Overfull \hbox (5.26144pt too wide) in paragraph at lines 262--263
+[]\OT1/ptm/m/n/12 La ma-yor par-te de la con-fi-gu-ra-ci[]on se rea-li-za en el
+ fi-che-ro apa-che2.conf (Ubun-tu) o httpd.conf
+ []
 
-]
+) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\design_implement.tex [22]
 Cap\'{\i }tulo 4.
 [23
+
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
@@ -762,7 +767,7 @@ Package pdftex.def Info: img/bbdd.png used on input line 47.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-[25 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/bbdd.png>]
+[25 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/bbdd.png>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 66.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
@@ -789,8 +794,8 @@ File: img/perfil_otro.png Graphic file (type png)
 <use img/perfil_otro.png>
 Package pdftex.def Info: img/perfil_otro.png used on input line 151.
 (pdftex.def)             Requested size: 341.43306pt x 196.52766pt.
- [28 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/home.png>] <img/perfil_mensaje
-s.png, id=132, 1267.73625pt x 644.4075pt>
+ [28 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/home.png>] <img/perfil_mensajes
+.png, id=132, 1267.73625pt x 644.4075pt>
 File: img/perfil_mensajes.png Graphic file (type png)
 
 <use img/perfil_mensajes.png>
@@ -806,17 +811,17 @@ Package pdftex.def Info: img/perfil_favoritos.png used on input line 163.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/mi_perfil.png> <C:/Users/Itzi/
-Desktop/TFG/memoria_urjc/img/perfil_otro.png>]
+ [29 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/mi_perfil.png> <C:/Users/Itzi/D
+esktop/TFG/TFG-Memoria/img/perfil_otro.png>]
 <img/perfil_actividades.png, id=139, 1267.73625pt x 622.325pt>
 File: img/perfil_actividades.png Graphic file (type png)
 
 <use img/perfil_actividades.png>
 Package pdftex.def Info: img/perfil_actividades.png used on input line 169.
 (pdftex.def)             Requested size: 341.43306pt x 167.60268pt.
- [30 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/perfil_mensajes.png> <C:/Users
-/Itzi/Desktop/TFG/memoria_urjc/img/perfil_favoritos.png> <C:/Users/Itzi/Desktop
-/TFG/memoria_urjc/img/perfil_actividades.png>]
+ [30 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/perfil_mensajes.png> <C:/Users/
+Itzi/Desktop/TFG/TFG-Memoria/img/perfil_favoritos.png> <C:/Users/Itzi/Desktop/T
+FG/TFG-Memoria/img/perfil_actividades.png>]
 <img/foro.png, id=146, 1267.73625pt x 1321.93875pt>
 File: img/foro.png Graphic file (type png)
  <use img/foro.png>
@@ -826,15 +831,15 @@ Package pdftex.def Info: img/foro.png used on input line 196.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-[32 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/foro.png>]
+[32 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/foro.png>]
 <img/propuestas.png, id=154, 1267.73625pt x 806.01125pt>
 File: img/propuestas.png Graphic file (type png)
 
 <use img/propuestas.png>
 Package pdftex.def Info: img/propuestas.png used on input line 222.
 (pdftex.def)             Requested size: 341.43306pt x 217.0725pt.
- [33 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/propuestas.png>] <img/propuest
-a.png, id=159, 1267.73625pt x 666.49pt>
+ [33 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/propuestas.png>] <img/propuesta
+.png, id=159, 1267.73625pt x 666.49pt>
 File: img/propuesta.png Graphic file (type png)
 
 <use img/propuesta.png>
@@ -850,16 +855,16 @@ Package pdftex.def Info: img/propuesta_comment.png used on input line 260.
 
 Underfull \vbox (badness 3449) has occurred while \output is active []
 
- [34 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/propuesta.png>] [35 <C:/Users/
-Itzi/Desktop/TFG/memoria_urjc/img/propuesta_comment.png>]
+ [34 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/propuesta.png>] [35 <C:/Users/I
+tzi/Desktop/TFG/TFG-Memoria/img/propuesta_comment.png>]
 <img/actividades.png, id=170, 1267.73625pt x 666.49pt>
 File: img/actividades.png Graphic file (type png)
 
 <use img/actividades.png>
 Package pdftex.def Info: img/actividades.png used on input line 285.
 (pdftex.def)             Requested size: 341.43306pt x 179.49706pt.
- [36 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/actividades.png>] <img/activid
-ad.png, id=175, 1267.73625pt x 833.1125pt>
+ [36 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/actividades.png>] <img/activida
+d.png, id=175, 1267.73625pt x 833.1125pt>
 File: img/actividad.png Graphic file (type png)
 
 <use img/actividad.png>
@@ -887,10 +892,10 @@ File: img/actividad_comment.png Graphic file (type png)
 <use img/actividad_comment.png>
 Package pdftex.def Info: img/actividad_comment.png used on input line 333.
 (pdftex.def)             Requested size: 341.43306pt x 245.72716pt.
- [37 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/actividad.png> <C:/Users/Itzi/
-Desktop/TFG/memoria_urjc/img/actividad_miniactividad.png>] [38 <C:/Users/Itzi/D
-esktop/TFG/memoria_urjc/img/actividad_registro.png> <C:/Users/Itzi/Desktop/TFG/
-memoria_urjc/img/actividad_comment.png>]
+ [37 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/actividad.png> <C:/Users/Itzi/D
+esktop/TFG/TFG-Memoria/img/actividad_miniactividad.png>] [38 <C:/Users/Itzi/Des
+ktop/TFG/TFG-Memoria/img/actividad_registro.png> <C:/Users/Itzi/Desktop/TFG/TFG
+-Memoria/img/actividad_comment.png>]
 <img/ofertas.png, id=189, 1267.73625pt x 668.4975pt>
 File: img/ofertas.png Graphic file (type png)
  <use img/ofertas.png>
@@ -899,7 +904,7 @@ Package pdftex.def Info: img/ofertas.png used on input line 360.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/ofertas.png>]
+ [39 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/ofertas.png>]
 <img/oferta.png, id=194, 1267.73625pt x 829.0975pt>
 File: img/oferta.png Graphic file (type png)
  <use img/oferta.png>
@@ -916,8 +921,8 @@ Package pdftex.def Info: img/oferta_comment.png used on input line 398.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
-[41 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/oferta.png> <C:/Users/Itzi/Desk
-top/TFG/memoria_urjc/img/oferta_comment.png>]
+[41 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/oferta.png> <C:/Users/Itzi/Deskt
+op/TFG/TFG-Memoria/img/oferta_comment.png>]
 <img/infos_interes.png, id=205, 1267.73625pt x 583.17876pt>
 File: img/infos_interes.png Graphic file (type png)
 
@@ -927,7 +932,7 @@ Package pdftex.def Info: img/infos_interes.png used on input line 424.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/infos_interes.png>]
+ [42 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/infos_interes.png>]
 <img/info_interes.png, id=210, 1267.73625pt x 682.55pt>
 File: img/info_interes.png Graphic file (type png)
 
@@ -945,9 +950,9 @@ Package pdftex.def Info: img/info_interes_comment.png used on input line 464.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-[44 <C:/Users/Itzi/Desktop/TFG/memoria_urjc/img/info_interes.png> <C:/Users/Itz
-i/Desktop/TFG/memoria_urjc/img/info_interes_comment.png>] [45])
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\evaluation.tex [46]
+[44 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/info_interes.png> <C:/Users/Itzi
+/Desktop/TFG/TFG-Memoria/img/info_interes_comment.png>] [45])
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\evaluation.tex [46]
 Cap\'{\i }tulo 5.
 [47
 
@@ -958,12 +963,12 @@ Overfull \hbox (8.21674pt too wide) in paragraph at lines 18--19
 a-rias he-rra-mien-tas web co-mo HTML5,
  []
 
-) (C:\Users\Itzi\Desktop\TFG\memoria_urjc\conclusiones.tex [48]
+) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\conclusiones.tex [48]
 Cap\'{\i }tulo 6.
 [49
 
 
-] [50]) (C:\Users\Itzi\Desktop\TFG\memoria_urjc\bibliografia.tex [51]
+] [50]) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\bibliografia.tex [51]
 [52
 
 ]
@@ -973,7 +978,7 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [53
 
 ])
-(C:\Users\Itzi\Desktop\TFG\memoria_urjc\apendices.tex [54]
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\apendices.tex [54]
 Ap\IeC {\'e}ndice A.
 [55
 
@@ -984,25 +989,25 @@ Ap\IeC {\'e}ndice A.
 Ap\IeC {\'e}ndice B.
 ) [57
 
-] (C:\Users\Itzi\Desktop\TFG\memoria_urjc\memoria_def.aux) ) 
+] (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\memoria_def.aux) ) 
 Here is how much of TeX's memory you used:
- 7997 strings out of 493921
- 115433 string characters out of 3147286
- 179428 words of memory out of 3000000
- 11051 multiletter control sequences out of 15000+200000
+ 8003 strings out of 493921
+ 115472 string characters out of 3147286
+ 179440 words of memory out of 3000000
+ 11057 multiletter control sequences out of 15000+200000
  32179 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,13n,38p,1287b,381s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/latxfont/lasy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/co
-urier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on memoria_def.pdf (66 pages, 2114712 bytes).
+{C:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/latxfont/lasy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/cou
+rier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on memoria_def.pdf (66 pages, 2117334 bytes).
 PDF statistics:
  292 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
