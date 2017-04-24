@@ -14,19 +14,20 @@ La arquitectura de la aplicación esta diferenciada en el lado del cliente y en 
 \section{Arquitectura general} 
 \label{sec:arquitectura}
 
+FIXME: estaría bien tener un esquema de la arquitectura general en un diagrama.
 
 El proyecto consta de múltiples ficheros y directorios. Aunque se haya utilizado un CMS, la arquitectura sigue siendo la misma que la utilizada en Django. Cada una de las distintas aplicaciones que contiene el presente proyecto mantiene la siguiente estructura:
 \begin{itemize}
-\item Urls: es la interfaz entre el cliente y el servidor. Maneja las peticiones HTTP recibidas y las envía a la función contenida en el views correspondiente.
+\item Urls.py: es la interfaz entre el cliente y el servidor. Maneja las peticiones HTTP recibidas y las envía a la función contenida en el \textit{views} correspondiente.
 \item Views.py: recibe la información de la petición HTTP y devuelve una respuesta. En el presente proyecto sólo se reciben peticiones GET y peticiones POST.
 \item Models.py: determina la estructura de datos.
-\item Templates: contine las plantillas HTML que definen la interfaz de usuario
+\item Templates: contiene las plantillas HTML que definen la interfaz de usuario
 \item Static: contiene los ficheros estáticos CSS y JS, además de contener las imágenes utilizadas.
-\item Utils: contiene funciones llamadas por el views. Cada llamada recibe unos parámetros, los procesa y devuelve un resultado fruto de ese procesamiento.
+\item Utils: contiene funciones llamadas por el \textit{views}. Cada llamada recibe unos parámetros, los procesa y devuelve un resultado fruto de ese procesamiento.
 \end{itemize}
 
 
-Como se ha comentado anteriormente, cuando el servidor recibe una petición HTTP por parte del cliente dicha petición es manejada desde el fichero principal urls.py. Tras encontrar la url en dicho fichero continúa con el siguiente fichero urls (que será el de la aplicación pedida) a continuación se hace ejecutar la función correspondiente del fichero views.py. La función trata la petición GET o POST y responderá con una petición HTTP que devolverá la plantilla HTML (con todos los demás ficheros estáticos) correspondiente al cliente.
+Como se ha comentado anteriormente, cuando el servidor recibe una petición HTTP por parte del cliente, dicha petición es manejada desde el fichero principal urls.py. Tras encontrar la URL en dicho fichero continúa con el siguiente fichero urls.py (que será el de la aplicación pedida) a continuación se hace ejecutar la función correspondiente del fichero views.py. La función trata la petición GET o POST y responderá con una petición HTTP que devolverá la plantilla HTML (con todos los demás ficheros estáticos) correspondiente al cliente.
 
 
 \section{Diseño e implementación del servidor} 
@@ -37,7 +38,7 @@ Como se ha comentado anteriormente, cuando el servidor recibe una petición HTTP
 \label{subsec:modelos}
 
 
-La aplicación requiere una base de datos donde se guardará toda la información que los usuarios introduzcan en la aplicación web. La estructura de la base de datos se almacena, como hemos comentado antes, en el archivo models.py (como hemos dicho anteriormente, cada aplicación contiene su propio archivo models). Django generará las tablas pertinentes dentro de la base de datos. La base de datos utilizada es SQLite3 que es un tipo de base de datos relacional.
+La aplicación requiere una base de datos donde se guardará toda la información que los usuarios introduzcan en la aplicación web. La estructura de la base de datos se almacena, como hemos comentado antes, en el archivo models.py (como hemos dicho anteriormente, cada aplicación contiene su propio archivo models.py). Django generará las tablas pertinentes dentro de la base de datos. La base de datos utilizada es SQLite3 que es un tipo de base de datos relacional.
 
 
 La ventaja que tenemos al usar un Django es que la conexión con los sistemas de la base de datos es transparente para el usuario. 
@@ -49,11 +50,14 @@ La ventaja que tenemos al usar un Django es que la conexión con los sistemas de
     \label{figura:base_datos}
  \end{figure}
 
+FIXME: la figura queda un poco rara, porque no se pueden ver los campos de cada tabla.
+ 
+
 A continuación se enumeran y describen cada una de las aplicaciones que utilizan la base de datos mostrada en la figura 1:
 
 
 \begin{itemize}
-\item Theme: en esta aplicación se define la estructura que tendrá la homepage, también incluyen modelos para la creación de FAQs y la creación de un blog y sus respectivas entradas.
+\item Theme: en esta aplicación se define la estructura que tendrá la \textit{homepage}, también incluyen modelos para la creación de FAQs y la creación de un blog y sus respectivas entradas.
 \item Propuestas: con esta aplicación conseguimos que los usuarios propongan sus propias actividades o al tipo de actividades que desean asistir.
 \item Ofertas: con esta aplicación conseguimos dar a conocer las ofertas de trabajo y prácticas en empresas.
 \item Actividades: con esta aplicación conseguimos dar a conocer las distintas actividades que se realizan en la Universidad. Estas actividades van desde un simple seminario o charla hasta actividades un poco más grandes como podría ser un taller con varios seminarios dentro o incluso la organización y difusión de la semana de San Teleco. 
@@ -63,8 +67,8 @@ El modelo de Perfil creado debe referenciar a un usuario, pero no puede existir 
 No se mostrará públicamente algunos datos de carácter personal debido a la ley de protección de datos.
 \item BasicModels y BasicContent: estas dos aplicaciones han sido creadas para proporcionar una base para dos propósitos:
 \begin{itemize}
-\item Crear páginas básicas como las creadas para mostrar las listas de ofertas, informacion de interés, etc.
-\item o	Extender el modelo al crear los modelos anteriormente comentados unificando en uno solo los campos comunes, además de proporcionar templates comunes para el resto de aplicaciones.
+\item Crear páginas básicas como las creadas para mostrar las listas de ofertas, información de interés, etc.
+\item o	Extender el modelo al crear los modelos anteriormente comentados unificando en uno solo los campos comunes, además de proporcionar \textit{templates} comunes para el resto de aplicaciones.
 Con estas dos aplicaciones conseguimos reducir el código, evitando en la medida de lo posible la repetición del mismo.
 \end{itemize}
 \end{itemize}
@@ -84,7 +88,7 @@ Dentro de la aplicación se distinguen tipos de usuarios, con distintos roles y 
 \end{itemize}
 
 
-\subsection{AMAZON WEB SERVICE + APACHE} 
+\subsection{Amazon Web Service + Apache} 
 \label{subsec:aws_apache}
 
 La aplicación se ha desplegado en una máquina EC2 de Amazon Web Service usando una cuenta gratuita para estudiantes de duración de un año.
@@ -175,13 +179,17 @@ Después de configurar el anterior fichero, se activó el host virtual y se rein
 
 El cliente puede acceder a la interfaz web a través de un navegador web. Como bien se ha comentado anteriormente, se han utilizado distintas tecnologías para que la interfaz sea más amigable. HTML5 y CSS3 junto con Bootstrap y jQuery han sido necesarias para definir cómo se visualizan y con qué estilos y diseños aparecen cada uno de los elementos visibles en esta aplicación. 
 
+Estaría bien un diagrama con las vistas que tiene.
+
 
 Todas las vistas de este proyecto siguen el mismo esquema:
 
+FIXME: estaría bien tener este esquema en un diagrama.
+
 
 \begin{itemize}
-\item Una barra superior o header que consta del logotipo de la aplicación junto con el login y un formulario de búsqueda. Además también consta del menú y ya por último se ha introducido también otra pequeña cabecera con el nombre de vista junto con lo que llamaríamos breadcrumb o migas de pan.  Breadcrumb es un elemento que aporta al usuario la información de dónde se encuentra en cada momento dentro de un sitio web. Se indica la ubicación exacta de la página y la relación jerárquica de esta con respecto a la de inicio del sitio web.
-\item Contenido principal de la página. En esta sección lo que nos encontramos es con el contenido renderizado que estamos pidiendo a través de la url introducida ya sea el perfil de usuario, una actividad, una oferta o cualquier otra petición.
+\item Una barra superior o \textit{header} que consta del logotipo de la aplicación junto con el login y un formulario de búsqueda. Además también consta del menú y ya por último se ha introducido también otra pequeña cabecera con el nombre de vista junto con lo que llamaríamos \textit{breadcrumb} o migas de pan.  Breadcrumb es un elemento que aporta al usuario la información de dónde se encuentra en cada momento dentro de un sitio web. Se indica la ubicación exacta de la página y la relación jerárquica de esta con respecto a la de inicio del sitio web.
+\item Contenido principal de la página. En esta sección lo que nos encontramos es con el contenido renderizado que estamos pidiendo a través de la URL introducida ya sea el perfil de usuario, una actividad, una oferta o cualquier otra petición.
 \item Footer. En el footer podemos encontrar el copyright®, política de cookies, etc.
 \end{itemize}
 
@@ -561,7 +569,7 @@ Esta vista tiene que ver más con la legislación que con la propia aplicación.
 El Real Decreto-ley 13/2012, de 30 de marzo, publicado en el «Boletín Oficial del Estado» el pasado sábado 31 de marzo de 2012, transpone la Directiva 2009/136/CE, del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009, que se integra en la LSSI (Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico) modificando el punto segundo de su artículo 22, que queda redactado de la forma siguiente:
 
 
-''Artículo 22.2 de la Ley 34/2002. Los prestadores de servicios podrán utilizar dispositivos de almacenamiento y recuperación de datos en equipos terminales de los destinatarios, a condición de que los mismos hayan dado su consentimiento después de que se les haya facilitado información clara y completa sobre su utilización, en particular, sobre los fines del tratamiento de los datos, con arreglo a lo dispuesto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal. Cuando sea técnicamente posible y eficaz, el consentimiento del destinatario para aceptar el tratamiento de los datos podrá facilitarse mediante el uso de los parámetros adecuados del navegador o de otras aplicaciones, siempre que aquél deba proceder a su configuración durante su instalación o actualización mediante una acción expresa a tal efecto. Lo anterior no impedirá el posible almacenamiento o acceso de índole técnica al solo fin de efectuar la transmisión de una comunicación por una red de comunicaciones electrónicas o, en la medida que resulte estrictamente necesario, para la prestación de un servicio de la sociedad de la información expresamente solicitado por el destinatario.''
+``Artículo 22.2 de la Ley 34/2002. Los prestadores de servicios podrán utilizar dispositivos de almacenamiento y recuperación de datos en equipos terminales de los destinatarios, a condición de que los mismos hayan dado su consentimiento después de que se les haya facilitado información clara y completa sobre su utilización, en particular, sobre los fines del tratamiento de los datos, con arreglo a lo dispuesto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal. Cuando sea técnicamente posible y eficaz, el consentimiento del destinatario para aceptar el tratamiento de los datos podrá facilitarse mediante el uso de los parámetros adecuados del navegador o de otras aplicaciones, siempre que aquél deba proceder a su configuración durante su instalación o actualización mediante una acción expresa a tal efecto. Lo anterior no impedirá el posible almacenamiento o acceso de índole técnica al solo fin de efectuar la transmisión de una comunicación por una red de comunicaciones electrónicas o, en la medida que resulte estrictamente necesario, para la prestación de un servicio de la sociedad de la información expresamente solicitado por el destinatario.''
 
 
 Por si no hubiera quedado claro del todo nos podríamos enfrentar a distintas sanciones dependiendo de la gravedad que consideren:
@@ -569,9 +577,9 @@ Por si no hubiera quedado claro del todo nos podríamos enfrentar a distintas sa
 
 \begin{itemize}
 \item Sanción Leve hasta 30.000 Euros.  Art. 38.4 LSSI. Son infracciones leves:
-g) '' El incumplimiento de las obligaciones de información o de establecimiento de un procedimiento de rechazo del tratamiento de datos, establecidas en el apartado 2 del artículo 22, cuando no constituya una infracción grave.''
+g) ``El incumplimiento de las obligaciones de información o de establecimiento de un procedimiento de rechazo del tratamiento de datos, establecidas en el apartado 2 del artículo 22, cuando no constituya una infracción grave.''
 \item Sanción Grave de 30.000 hasta 150.000 Euros. Art. 38.3 LSSI. Son infracciones graves:
-i) ''El incumplimiento significativo de las obligaciones de información o de establecimiento de un procedimiento de rechazo del tratamiento de datos, establecidas en el apartado 2 del artículo 22.''
+i) ``El incumplimiento significativo de las obligaciones de información o de establecimiento de un procedimiento de rechazo del tratamiento de datos, establecidas en el apartado 2 del artículo 22.''
 \end{itemize}
 
 
