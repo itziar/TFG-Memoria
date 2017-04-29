@@ -1,7 +1,7 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{7}
 \contentsline {section}{\numberline {1.1}Presentaci\IeC {\'o}n}{7}
-\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n Personal:}{8}
+\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n Personal}{8}
 \contentsline {section}{\numberline {1.3}Estructura de la memoria}{9}
 \contentsline {chapter}{\numberline {2}Objetivos}{11}
 \contentsline {section}{\numberline {2.1}Objetivo general}{11}
@@ -17,17 +17,17 @@
 \contentsline {section}{\numberline {3.8}jQuery}{19}
 \contentsline {section}{\numberline {3.9}Bootstrap}{20}
 \contentsline {section}{\numberline {3.10}JSON}{20}
-\contentsline {section}{\numberline {3.11}AMAZON WEB SERVICE (AWS)}{21}
-\contentsline {section}{\numberline {3.12}APACHE}{21}
+\contentsline {section}{\numberline {3.11}Amazon Web Services intr(AWS)}{21}
+\contentsline {section}{\numberline {3.12}Apache}{21}
 \contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o e implementaci\IeC {\'o}n}{23}
 \contentsline {section}{\numberline {4.1}Arquitectura general}{23}
 \contentsline {section}{\numberline {4.2}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del servidor}{24}
 \contentsline {subsection}{\numberline {4.2.1}Modelos de la base de datos}{24}
 \contentsline {subsection}{\numberline {4.2.2}Tipo de usuarios}{26}
-\contentsline {subsection}{\numberline {4.2.3}AMAZON WEB SERVICE + APACHE}{27}
+\contentsline {subsection}{\numberline {4.2.3}Amazon Web Service + Apache}{27}
 \contentsline {section}{\numberline {4.3}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del cliente}{31}
 \contentsline {subsection}{\numberline {4.3.1}Vistas de las p\IeC {\'a}ginas}{32}
-\contentsline {subsubsection}{P\IeC {\'a}gina de inicio}{32}
+\contentsline {subsubsection}{P\IeC {\'a}gina de inicio}{33}
 \contentsline {subsubsection}{P\IeC {\'a}gina del Perfil de Usuario}{33}
 \contentsline {subsubsection}{P\IeC {\'a}gina del Foro}{36}
 \contentsline {subsubsection}{P\IeC {\'a}gina de Propuestas}{37}
