@@ -14,8 +14,6 @@ La arquitectura de la aplicación esta diferenciada en el lado del cliente y en 
 \section{Arquitectura general} 
 \label{sec:arquitectura}
 
-FIXME: estaría bien tener un esquema de la arquitectura general en un diagrama.
-
 El proyecto consta de múltiples ficheros y directorios. Aunque se haya utilizado un CMS, la arquitectura sigue siendo la misma que la utilizada en Django. Cada una de las distintas aplicaciones que contiene el presente proyecto mantiene la siguiente estructura:
 \begin{itemize}
 \item Urls.py: es la interfaz entre el cliente y el servidor. Maneja las peticiones HTTP recibidas y las envía a la función contenida en el \textit{views} correspondiente.
@@ -50,7 +48,7 @@ La ventaja que tenemos al usar un Django es que la conexión con los sistemas de
     \label{figura:base_datos}
  \end{figure}
 
-FIXME: la figura queda un poco rara, porque no se pueden ver los campos de cada tabla.
+
  
 
 A continuación se enumeran y describen cada una de las aplicaciones que utilizan la base de datos mostrada en la figura 1:
@@ -58,17 +56,144 @@ A continuación se enumeran y describen cada una de las aplicaciones que utiliza
 
 \begin{itemize}
 \item Theme: en esta aplicación se define la estructura que tendrá la \textit{homepage}, también incluyen modelos para la creación de FAQs y la creación de un blog y sus respectivas entradas.
+
 \item Propuestas: con esta aplicación conseguimos que los usuarios propongan sus propias actividades o al tipo de actividades que desean asistir.
+Los campos contenidos en la base de datos para la clase Propuestas son:
+	\begin{itemize}
+		\item usuario
+		\item titulo
+		\item descripcion
+		\item archivo
+		\item estado\_propuesta que podrá ser Enviado, Aceptado o Rechazado
+	\end{itemize}
 \item Ofertas: con esta aplicación conseguimos dar a conocer las ofertas de trabajo y prácticas en empresas.
-\item Actividades: con esta aplicación conseguimos dar a conocer las distintas actividades que se realizan en la Universidad. Estas actividades van desde un simple seminario o charla hasta actividades un poco más grandes como podría ser un taller con varios seminarios dentro o incluso la organización y difusión de la semana de San Teleco. 
+Los campos contenidos en la base de datos para la clase OfertasDeTrabajo son:
+	\begin{itemize}
+		\item titulo
+		\item usuario
+		\item descripcion
+		\item como\_aplicar
+		\item cuando
+		\item donde
+		\item url
+		\item salario
+		\item fichero
+		\item tipo\_contrato que podrá ser Prácticas, Indefinido u Otros
+	\end{itemize}
+\item Actividades: con esta aplicación conseguimos dar a conocer las distintas actividades que se realizan en la Universidad. Estas actividades van desde un simple seminario o charla hasta actividades un poco más grandes como podría ser un taller con varios seminarios dentro o incluso la organización y difusión de la semana de San Teleco.
+Los campos contenidos en la base de datos para la clase Actividades son:
+	\begin{itemize}
+		\item usuario
+		\item titulo
+		\item descripcion
+		\item archivo
+		\item estado\_propuesta 
+		\item fecha\_inicio
+		\item fecha\_fin
+		\item destacado: con este campo se indica que es una actividad importante, colocándola al principio de la lista
+		\item url
+		\item  lugar
+		\item limite\_participantes: con este campo se decide si hay aforo limitado o no
+		\item limit: si existiera aforo, con este campo delimitamos el número de personas registradas
+		\item permitir\_inscriptions: con este campo se especifica si se aceptan inscripciones
+		\item fecha\_inscripcion\_inicio
+		\item fecha\_inscripcion\_final
+		\item lista\_espera: con este campo se decide si se acepta poseer lista de espera		
+		\item creditos\_rac: con este campo se decide si se conceden créditos RAC
+		\item n\_rac: este campo especifica el número de créditos RAC que se conceden
+		\item adminlist: en este campo se especifican los usuarios que participan en la organización de la actividad
+		\item email\_organizador
+		\item incluir\_miniactividades: con este campo se decide si se acepta poder incluir miniactividades
+	\end{itemize}	
+Tanto para la clase UsuariosRegistradosActividades como para la clase UsuariosListaEsperaActividades los campos que contienen sus bases de datos son los siguientes:
+	\begin{itemize}
+		\item actividad
+		\item usuario
+		\item fecha\_registro
+		\item fecha\_actualizacion
+	\end{itemize}
+Los campos contenidos en la base de datos para la clase MiniActividad son:
+	\begin{itemize}
+		\item actividad
+		\item titulo
+		\item descripcion
+		\item archivo
+		\item lugar
+		\item fecha
+		\item hora
+	\end{itemize}
+
 \item Información de interés: con esta aplicación conseguimos difundir el resto de información que se desee compartir como becas, cursos, concursos, etc. 
+Los campos contenidos en la base de datos para la clase InformacionInteres son:
+	\begin{itemize}
+		\item usuario
+		\item titulo
+		\item descripcion
+		\item archivo
+		\item cuando
+		\item donde
+		\item url
+		\item tipo\_informacion que podrá ser Beca, Programa, Curso, Concurso u Otros
+	\end{itemize}
+	
 \item Perfil: con esta aplicación conseguimos complementar el modelo de usuario creado por Django.
 El modelo de Perfil creado debe referenciar a un usuario, pero no puede existir más de un perfil por usuario. 
 No se mostrará públicamente algunos datos de carácter personal debido a la ley de protección de datos.
+Los campos contenidos en la base de datos para la clase Profile son:
+	\begin{itemize}
+		\item usuario
+		\item dni: este campo sólo se mostrará al registrarse en una actividad, y/o cuando se visite el propio perfil
+		\item bio
+		\item lugar
+		\item foto 
+		\item telefono
+		\item pagina\_web
+	\end{itemize}
+Los campos contenidos en la base de datos para la clase ProfileProfesor son:
+	\begin{itemize}
+		\item usuario
+		\item departamento
+		\item puesto
+		\item formacion
+		\item investigacion
+	\end{itemize}
+Los campos contenidos en la base de datos para la clase ProfileAlumno son:
+	\begin{itemize}
+		\item usuario
+		\item grado
+		\item curso
+	\end{itemize} 
+
+Para todas las clases relacionadas con los Likes, los campos que contienen sus bases de datos son los siguientes:
+	\begin{itemize}
+		\item page
+		\item usuario
+	\end{itemize}
+
+Para todas las clases relacionadas con los Comentarios y el Foro, los campos que contienen sus bases de datos son los siguientes:
+	\begin{itemize}
+		\item page
+		\item usuario
+		\item titulo
+		\item comentario
+		\item anonimo: con este campo se decide si un comentario es anónimo o no. En el foro, esta variable siempre será False
+		\item archivo
+		\item fecha
+	\end{itemize}
+
+Para la clase Mensajes, los campos que contienen su base de datos son los siguientes:
+\begin{itemize}
+		\item destinatario
+		\item remitente
+		\item subject
+		\item body
+		\item fecha
+	\end{itemize}    
+    
 \item BasicModels y BasicContent: estas dos aplicaciones han sido creadas para proporcionar una base para dos propósitos:
 \begin{itemize}
 \item Crear páginas básicas como las creadas para mostrar las listas de ofertas, información de interés, etc.
-\item o	Extender el modelo al crear los modelos anteriormente comentados unificando en uno solo los campos comunes, además de proporcionar \textit{templates} comunes para el resto de aplicaciones.
+\item Extender el modelo al crear los modelos anteriormente comentados unificando en uno solo los campos comunes, además de proporcionar \textit{templates} comunes para el resto de aplicaciones.
 Con estas dos aplicaciones conseguimos reducir el código, evitando en la medida de lo posible la repetición del mismo.
 \end{itemize}
 \end{itemize}
@@ -183,8 +308,6 @@ Estaría bien un diagrama con las vistas que tiene.
 
 
 Todas las vistas de este proyecto siguen el mismo esquema:
-
-FIXME: estaría bien tener este esquema en un diagrama.
 
 
 \begin{itemize}
