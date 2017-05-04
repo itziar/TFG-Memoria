@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.2)  3 MAY 2017 22:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.2)  4 MAY 2017 20:12
 entering extended mode
 **memoria_def.tex
 (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\memoria_def.tex
@@ -738,296 +738,306 @@ Cap\'{\i }tulo 3.
 [13
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-[15] [16] [17] [18] [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20]
-[21]
+] [14] [15] [16] [17] [18] [19] [20] [21]
 Overfull \hbox (5.26144pt too wide) in paragraph at lines 262--263
 []\OT1/ptm/m/n/12 La ma-yor par-te de la con-fi-gu-ra-ci[]on se rea-li-za en el
  fi-che-ro apa-che2.conf (Ubun-tu) o httpd.conf
  []
 
-) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\design_implement.tex [22]
-Cap\'{\i }tulo 4.
-[23
+[22]) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\design_implement.tex [23] [24
 
+]
+Cap\'{\i }tulo 4.
+[25
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
- <img/bbdd.png, id=109, 533.74406pt x 412.54124pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+ <img/bbdd.png, id=115, 533.74406pt x 412.54124pt>
 File: img/bbdd.png Graphic file (type png)
  <use img/bbdd.png>
-Package pdftex.def Info: img/bbdd.png used on input line 46.
+Package pdftex.def Info: img/bbdd.png used on input line 43.
 (pdftex.def)             Requested size: 341.43306pt x 263.90588pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 63.
+ [26]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 61.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
- [25 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/bbdd.png>] [26] [27] [28] [29] 
-[30]
-<img/cpuinfo.png, id=133, 963.6pt x 362.85562pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+ [27 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/bbdd.png>] [28] [29] [30] [31] 
+[32]
+<img/cpuinfo.png, id=139, 963.6pt x 362.85562pt>
 File: img/cpuinfo.png Graphic file (type png)
  <use img/cpuinfo.png>
-Package pdftex.def Info: img/cpuinfo.png used on input line 231.
+Package pdftex.def Info: img/cpuinfo.png used on input line 235.
 (pdftex.def)             Requested size: 341.43306pt x 128.56825pt.
 
-<img/dmidecode.png, id=135, 280.04625pt x 236.38312pt>
+<img/dmidecode.png, id=141, 280.04625pt x 236.38312pt>
 File: img/dmidecode.png Graphic file (type png)
  <use img/dmidecode.png>
-Package pdftex.def Info: img/dmidecode.png used on input line 237.
+Package pdftex.def Info: img/dmidecode.png used on input line 241.
 (pdftex.def)             Requested size: 341.43306pt x 288.21024pt.
 
-<img/lsb_release.png, id=136, 246.9225pt x 85.82062pt>
+<img/lsb_release.png, id=142, 246.9225pt x 85.82062pt>
 File: img/lsb_release.png Graphic file (type png)
 
 <use img/lsb_release.png>
-Package pdftex.def Info: img/lsb_release.png used on input line 243.
+Package pdftex.def Info: img/lsb_release.png used on input line 247.
 (pdftex.def)             Requested size: 341.43306pt x 118.67612pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/cpuinfo.png>]
-<img/lscpu.png, id=141, 231.11343pt x 296.60812pt>
+ [33 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/cpuinfo.png>]
+<img/lscpu.png, id=147, 231.11343pt x 296.60812pt>
 File: img/lscpu.png Graphic file (type png)
  <use img/lscpu.png>
-Package pdftex.def Info: img/lscpu.png used on input line 249.
+Package pdftex.def Info: img/lscpu.png used on input line 253.
 (pdftex.def)             Requested size: 341.43306pt x 438.22636pt.
 
-<img/lshw.png, id=142, 963.6pt x 284.56313pt>
+<img/lshw.png, id=148, 963.6pt x 284.56313pt>
 File: img/lshw.png Graphic file (type png)
  <use img/lshw.png>
-Package pdftex.def Info: img/lshw.png used on input line 255.
+Package pdftex.def Info: img/lshw.png used on input line 259.
 (pdftex.def)             Requested size: 341.43306pt x 100.8274pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/dmidecode.png> <C:/Users/Itzi/D
+ [34 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/dmidecode.png> <C:/Users/Itzi/D
 esktop/TFG/TFG-Memoria/img/lsb_release.png>]
-<img/meminfo.png, id=148, 222.8325pt x 456.20438pt>
+<img/meminfo.png, id=155, 222.8325pt x 456.20438pt>
 File: img/meminfo.png Graphic file (type png)
  <use img/meminfo.png>
-Package pdftex.def Info: img/meminfo.png used on input line 261.
+Package pdftex.def Info: img/meminfo.png used on input line 265.
 (pdftex.def)             Requested size: 341.43306pt x 699.06938pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/lscpu.png> <C:/Users/Itzi/Deskt
+ [35 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/lscpu.png> <C:/Users/Itzi/Deskt
 op/TFG/TFG-Memoria/img/lshw.png>]
 Overfull \vbox (56.48904pt too high) has occurred while \output is active []
 
 
-[34 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/meminfo.png>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 269.
+[36 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/meminfo.png>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 273.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<img/welpe_conf.png, id=159, 787.44188pt x 258.21469pt>
+<img/welpe_conf.png, id=165, 787.44188pt x 258.21469pt>
 File: img/welpe_conf.png Graphic file (type png)
 
 <use img/welpe_conf.png>
-Package pdftex.def Info: img/welpe_conf.png used on input line 289.
+Package pdftex.def Info: img/welpe_conf.png used on input line 293.
 (pdftex.def)             Requested size: 341.43306pt x 111.95999pt.
- [35 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/welpe_conf.png>] <img/home.png,
- id=164, 1267.73625pt x 732.7375pt>
+ [37 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/welpe_conf.png>] <img/home.png,
+ id=170, 950.80219pt x 549.55313pt>
 File: img/home.png Graphic file (type png)
  <use img/home.png>
-Package pdftex.def Info: img/home.png used on input line 334.
-(pdftex.def)             Requested size: 341.43306pt x 197.33864pt.
+Package pdftex.def Info: img/home.png used on input line 323.
+(pdftex.def)             Requested size: 341.43306pt x 197.34422pt.
 
-[36] <img/mi_perfil.png, id=168, 1267.73625pt x 696.6025pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+<img/mi_perfil.png, id=174, 950.80219pt x 507.39563pt>
 File: img/mi_perfil.png Graphic file (type png)
+ <use img/mi_perfil.png>
+Package pdftex.def Info: img/mi_perfil.png used on input line 333.
+(pdftex.def)             Requested size: 341.43306pt x 182.20549pt.
 
-<use img/mi_perfil.png>
-Package pdftex.def Info: img/mi_perfil.png used on input line 361.
-(pdftex.def)             Requested size: 341.43306pt x 187.60687pt.
-
-<img/perfil_otro.png, id=169, 1267.73625pt x 729.72626pt>
+<img/perfil_otro.png, id=175, 950.80219pt x 547.2947pt>
 File: img/perfil_otro.png Graphic file (type png)
 
 <use img/perfil_otro.png>
-Package pdftex.def Info: img/perfil_otro.png used on input line 367.
-(pdftex.def)             Requested size: 341.43306pt x 196.52766pt.
+Package pdftex.def Info: img/perfil_otro.png used on input line 339.
+(pdftex.def)             Requested size: 341.43306pt x 196.53322pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/home.png>]
-<img/perfil_mensajes.png, id=174, 1267.73625pt x 644.4075pt>
+<img/perfil_mensajes.png, id=176, 950.80219pt x 483.30562pt>
 File: img/perfil_mensajes.png Graphic file (type png)
 
 <use img/perfil_mensajes.png>
-Package pdftex.def Info: img/perfil_mensajes.png used on input line 373.
-(pdftex.def)             Requested size: 341.43306pt x 173.54987pt.
+Package pdftex.def Info: img/perfil_mensajes.png used on input line 345.
+(pdftex.def)             Requested size: 341.43306pt x 173.55478pt.
 
-<img/perfil_favoritos.png, id=175, 1267.73625pt x 722.7pt>
+Underfull \vbox (badness 1215) has occurred while \output is active []
+
+ [39 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/home.png> <C:/Users/Itzi/Deskto
+p/TFG/TFG-Memoria/img/mi_perfil.png>]
+<img/perfil_favoritos.png, id=182, 950.80219pt x 542.025pt>
 File: img/perfil_favoritos.png Graphic file (type png)
 
 <use img/perfil_favoritos.png>
-Package pdftex.def Info: img/perfil_favoritos.png used on input line 379.
-(pdftex.def)             Requested size: 341.43306pt x 194.63536pt.
+Package pdftex.def Info: img/perfil_favoritos.png used on input line 351.
+(pdftex.def)             Requested size: 341.43306pt x 194.64087pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/mi_perfil.png> <C:/Users/Itzi/D
-esktop/TFG/TFG-Memoria/img/perfil_otro.png>]
-<img/perfil_actividades.png, id=181, 1267.73625pt x 622.325pt>
+<img/perfil_actividades.png, id=183, 950.80219pt x 466.74374pt>
 File: img/perfil_actividades.png Graphic file (type png)
 
 <use img/perfil_actividades.png>
-Package pdftex.def Info: img/perfil_actividades.png used on input line 385.
-(pdftex.def)             Requested size: 341.43306pt x 167.60268pt.
- [39 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/perfil_mensajes.png> <C:/Users/
-Itzi/Desktop/TFG/TFG-Memoria/img/perfil_favoritos.png> <C:/Users/Itzi/Desktop/T
-FG/TFG-Memoria/img/perfil_actividades.png>]
-<img/foro.png, id=188, 1267.73625pt x 1321.93875pt>
-File: img/foro.png Graphic file (type png)
- <use img/foro.png>
-Package pdftex.def Info: img/foro.png used on input line 412.
-(pdftex.def)             Requested size: 341.43306pt x 356.02054pt.
+Package pdftex.def Info: img/perfil_actividades.png used on input line 357.
+(pdftex.def)             Requested size: 341.43306pt x 167.60742pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-[41 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/foro.png>]
-<img/propuestas.png, id=197, 1267.73625pt x 806.01125pt>
+ [40 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/perfil_otro.png> <C:/Users/Itzi
+/Desktop/TFG/TFG-Memoria/img/perfil_mensajes.png>] [41 <C:/Users/Itzi/Desktop/T
+FG/TFG-Memoria/img/perfil_favoritos.png> <C:/Users/Itzi/Desktop/TFG/TFG-Memoria
+/img/perfil_actividades.png>] <img/foro.png, id=195, 1267.73625pt x 1521.685pt>
+File: img/foro.png Graphic file (type png)
+
+<use img/foro.png>
+Package pdftex.def Info: img/foro.png used on input line 374.
+(pdftex.def)             Requested size: 341.43306pt x 409.8156pt.
+ [42 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/foro.png>]
+<img/propuestas.png, id=200, 950.80219pt x 943.27406pt>
 File: img/propuestas.png Graphic file (type png)
 
 <use img/propuestas.png>
-Package pdftex.def Info: img/propuestas.png used on input line 438.
-(pdftex.def)             Requested size: 341.43306pt x 217.0725pt.
- [42 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/propuestas.png>] <img/propuesta
-.png, id=202, 1267.73625pt x 666.49pt>
+Package pdftex.def Info: img/propuestas.png used on input line 389.
+(pdftex.def)             Requested size: 341.43306pt x 338.7292pt.
+ [43 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/propuestas.png>] <img/propuesta
+.png, id=205, 950.80219pt x 499.8675pt>
 File: img/propuesta.png Graphic file (type png)
 
 <use img/propuesta.png>
-Package pdftex.def Info: img/propuesta.png used on input line 469.
-(pdftex.def)             Requested size: 341.43306pt x 179.49706pt.
+Package pdftex.def Info: img/propuesta.png used on input line 403.
+(pdftex.def)             Requested size: 341.43306pt x 179.50214pt.
 
-<img/propuesta_comment.png, id=203, 1267.73625pt x 999.735pt>
+<img/propuesta_comment.png, id=206, 950.80219pt x 749.80125pt>
 File: img/propuesta_comment.png Graphic file (type png)
 
 <use img/propuesta_comment.png>
-Package pdftex.def Info: img/propuesta_comment.png used on input line 476.
-(pdftex.def)             Requested size: 341.43306pt x 269.24559pt.
+Package pdftex.def Info: img/propuesta_comment.png used on input line 409.
+(pdftex.def)             Requested size: 341.43306pt x 269.25322pt.
 
-Underfull \vbox (badness 3449) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/propuesta.png>] [44 <C:/Users/I
+ [44 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/propuesta.png>] [45 <C:/Users/I
 tzi/Desktop/TFG/TFG-Memoria/img/propuesta_comment.png>]
-<img/actividades.png, id=212, 1267.73625pt x 666.49pt>
+<img/actividades.png, id=215, 950.80219pt x 499.8675pt>
 File: img/actividades.png Graphic file (type png)
 
 <use img/actividades.png>
-Package pdftex.def Info: img/actividades.png used on input line 501.
-(pdftex.def)             Requested size: 341.43306pt x 179.49706pt.
- [45 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/actividades.png>] <img/activida
-d.png, id=217, 1267.73625pt x 833.1125pt>
+Package pdftex.def Info: img/actividades.png used on input line 429.
+(pdftex.def)             Requested size: 341.43306pt x 179.50214pt.
+ [46 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/actividades.png>] <img/activida
+d.png, id=221, 950.80219pt x 624.83438pt>
 File: img/actividad.png Graphic file (type png)
 
 <use img/actividad.png>
-Package pdftex.def Info: img/actividad.png used on input line 531.
-(pdftex.def)             Requested size: 341.43306pt x 224.37132pt.
+Package pdftex.def Info: img/actividad.png used on input line 443.
+(pdftex.def)             Requested size: 341.43306pt x 224.37769pt.
 
-<img/actividad_miniactividad.png, id=218, 1267.73625pt x 692.5875pt>
+<img/actividad_miniactividad.png, id=222, 950.80219pt x 519.44063pt>
 File: img/actividad_miniactividad.png Graphic file (type png)
 
 <use img/actividad_miniactividad.png>
-Package pdftex.def Info: img/actividad_miniactividad.png used on input line 537
+Package pdftex.def Info: img/actividad_miniactividad.png used on input line 449
 .
-(pdftex.def)             Requested size: 341.43306pt x 186.52556pt.
+(pdftex.def)             Requested size: 341.43306pt x 186.53084pt.
 
-<img/actividad_registro.png, id=219, 1267.73625pt x 843.15pt>
+<img/actividad_registro.png, id=223, 950.80219pt x 632.3625pt>
 File: img/actividad_registro.png Graphic file (type png)
 
 <use img/actividad_registro.png>
-Package pdftex.def Info: img/actividad_registro.png used on input line 543.
-(pdftex.def)             Requested size: 341.43306pt x 227.0746pt.
+Package pdftex.def Info: img/actividad_registro.png used on input line 455.
+(pdftex.def)             Requested size: 341.43306pt x 227.08102pt.
 
-<img/actividad_comment.png, id=220, 1267.73625pt x 912.40875pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/actividad.png>]
+<img/actividad_comment.png, id=228, 950.80219pt x 684.30656pt>
 File: img/actividad_comment.png Graphic file (type png)
 
 <use img/actividad_comment.png>
-Package pdftex.def Info: img/actividad_comment.png used on input line 549.
-(pdftex.def)             Requested size: 341.43306pt x 245.72716pt.
- [46 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/actividad.png> <C:/Users/Itzi/D
-esktop/TFG/TFG-Memoria/img/actividad_miniactividad.png>] [47 <C:/Users/Itzi/Des
-ktop/TFG/TFG-Memoria/img/actividad_registro.png> <C:/Users/Itzi/Desktop/TFG/TFG
--Memoria/img/actividad_comment.png>]
-<img/ofertas.png, id=232, 1267.73625pt x 668.4975pt>
-File: img/ofertas.png Graphic file (type png)
- <use img/ofertas.png>
-Package pdftex.def Info: img/ofertas.png used on input line 576.
-(pdftex.def)             Requested size: 341.43306pt x 180.03772pt.
+Package pdftex.def Info: img/actividad_comment.png used on input line 461.
+(pdftex.def)             Requested size: 341.43306pt x 245.73412pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/ofertas.png>]
-<img/oferta.png, id=237, 1267.73625pt x 829.0975pt>
+ [48 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/actividad_miniactividad.png> <C
+:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/actividad_registro.png>] [49 <C:/Users
+/Itzi/Desktop/TFG/TFG-Memoria/img/actividad_comment.png>]
+<img/ofertas.png, id=238, 950.80219pt x 594.72188pt>
+File: img/ofertas.png Graphic file (type png)
+ <use img/ofertas.png>
+Package pdftex.def Info: img/ofertas.png used on input line 480.
+(pdftex.def)             Requested size: 341.43306pt x 213.5643pt.
+
+[50 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/ofertas.png>]
+<img/oferta.png, id=243, 950.80219pt x 621.82312pt>
 File: img/oferta.png Graphic file (type png)
  <use img/oferta.png>
-Package pdftex.def Info: img/oferta.png used on input line 608.
-(pdftex.def)             Requested size: 341.43306pt x 223.29002pt.
+Package pdftex.def Info: img/oferta.png used on input line 495.
+(pdftex.def)             Requested size: 341.43306pt x 223.29634pt.
 
-<img/oferta_comment.png, id=238, 1267.73625pt x 858.20625pt>
+<img/oferta_comment.png, id=244, 950.80219pt x 643.6547pt>
 File: img/oferta_comment.png Graphic file (type png)
 
 <use img/oferta_comment.png>
-Package pdftex.def Info: img/oferta_comment.png used on input line 614.
-(pdftex.def)             Requested size: 341.43306pt x 231.1295pt.
+Package pdftex.def Info: img/oferta_comment.png used on input line 501.
+(pdftex.def)             Requested size: 341.43306pt x 231.13605pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-[50 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/oferta.png> <C:/Users/Itzi/Deskt
-op/TFG/TFG-Memoria/img/oferta_comment.png>]
-<img/infos_interes.png, id=247, 1267.73625pt x 583.17876pt>
+ [51 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/oferta.png>] [52 <C:/Users/Itzi
+/Desktop/TFG/TFG-Memoria/img/oferta_comment.png>]
+<img/infos_interes.png, id=254, 950.80219pt x 514.17094pt>
 File: img/infos_interes.png Graphic file (type png)
 
 <use img/infos_interes.png>
-Package pdftex.def Info: img/infos_interes.png used on input line 640.
-(pdftex.def)             Requested size: 341.43306pt x 157.05994pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/infos_interes.png>]
-<img/info_interes.png, id=252, 1267.73625pt x 682.55pt>
+Package pdftex.def Info: img/infos_interes.png used on input line 520.
+(pdftex.def)             Requested size: 341.43306pt x 184.6385pt.
+ [53 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/infos_interes.png>] <img/info_i
+nteres.png, id=259, 950.80219pt x 511.9125pt>
 File: img/info_interes.png Graphic file (type png)
 
 <use img/info_interes.png>
-Package pdftex.def Info: img/info_interes.png used on input line 674.
-(pdftex.def)             Requested size: 341.43306pt x 183.8223pt.
+Package pdftex.def Info: img/info_interes.png used on input line 534.
+(pdftex.def)             Requested size: 341.43306pt x 183.8275pt.
 
-<img/info_interes_comment.png, id=253, 1267.73625pt x 1007.765pt>
+<img/info_interes_comment.png, id=260, 950.80219pt x 755.82375pt>
 File: img/info_interes_comment.png Graphic file (type png)
 
 <use img/info_interes_comment.png>
-Package pdftex.def Info: img/info_interes_comment.png used on input line 680.
-(pdftex.def)             Requested size: 341.43306pt x 271.4082pt.
+Package pdftex.def Info: img/info_interes_comment.png used on input line 540.
+(pdftex.def)             Requested size: 341.43306pt x 271.4159pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
-[53 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/info_interes.png> <C:/Users/Itzi
-/Desktop/TFG/TFG-Memoria/img/info_interes_comment.png>] [54])
-(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\evaluation.tex [55] [56
+ [54 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/info_interes.png>] [55 <C:/User
+s/Itzi/Desktop/TFG/TFG-Memoria/img/info_interes_comment.png>]
+<img/politica_cookies.png, id=269, 950.80219pt x 1745.01938pt>
+File: img/politica_cookies.png Graphic file (type png)
+
+<use img/politica_cookies.png>
+Package pdftex.def Info: img/politica_cookies.png used on input line 568.
+(pdftex.def)             Requested size: 341.43306pt x 626.63553pt.
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58 <C:/Users/Itzi/Desktop/TFG/TFG-Memoria/img/politica_cookies.png>]
+<img/admin.png, id=282, 1267.73625pt x 716.6775pt>
+File: img/admin.png Graphic file (type png)
+ <use img/admin.png>
+Package pdftex.def Info: img/admin.png used on input line 588.
+(pdftex.def)             Requested size: 341.43306pt x 193.01341pt.
+)
+(C:\Users\Itzi\Desktop\TFG\TFG-Memoria\evaluation.tex [59 <C:/Users/Itzi/Deskto
+p/TFG/TFG-Memoria/img/admin.png>] [60
 
 ]
 Cap\'{\i }tulo 5.
-[57
+[61
 
 ]
 Overfull \hbox (8.21674pt too wide) in paragraph at lines 18--19
@@ -1035,15 +1045,15 @@ Overfull \hbox (8.21674pt too wide) in paragraph at lines 18--19
 a-rias he-rra-mien-tas web co-mo HTML5,
  []
 
-) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\conclusiones.tex [58]
+) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\conclusiones.tex [62]
 Cap\'{\i }tulo 6.
-[59
+[63
 
 
-] [60]) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\bibliografia.tex [61]
-[62
+] [64]) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\bibliografia.tex [65]
+[66
 
-] [63
+] [67
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 60--63
@@ -1051,12 +1061,12 @@ $\OT1/pcr/m/n/10 http : / / blog . enriqueoriol . com / 2014 / 06 / lanzando-[]
 django-[]en-[]produccion-[]con .$
  []
 
-) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\apendices.tex [64]
+) (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\apendices.tex [68]
 Ap\IeC {\'e}ndice A.
-[65
+[69
 
 
-] [66
+] [70
 
 ]
 Ap\IeC {\'e}ndice B.
@@ -1072,7 +1082,7 @@ Overfull \hbox (3.36891pt too wide) in paragraph at lines 21--23
 cr/m/n/12 https : / / github . com / itziar / Welpe/$ 
  []
 
-) [67
+) [71
 
 ] (C:\Users\Itzi\Desktop\TFG\TFG-Memoria\memoria_def.aux)
 
@@ -1080,13 +1090,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8045 strings out of 493921
- 116223 string characters out of 3147286
- 179603 words of memory out of 3000000
- 11092 multiletter control sequences out of 15000+200000
+ 8057 strings out of 493921
+ 116476 string characters out of 3147286
+ 180627 words of memory out of 3000000
+ 11102 multiletter control sequences out of 15000+200000
  32179 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,13n,38p,1287b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,13n,38p,1289b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Program Files/MiKTeX 2
@@ -1095,9 +1105,9 @@ urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria_def.pdf (76 pages, 2229189 bytes).
+Output written on memoria_def.pdf (80 pages, 2578657 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
+ 355 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

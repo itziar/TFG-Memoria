@@ -14,39 +14,39 @@
 \contentsline {section}{\numberline {3.5}CSS3}{18}
 \contentsline {section}{\numberline {3.6}JavaScript}{19}
 \contentsline {section}{\numberline {3.7}AJAX}{19}
-\contentsline {section}{\numberline {3.8}jQuery}{19}
+\contentsline {section}{\numberline {3.8}jQuery}{20}
 \contentsline {section}{\numberline {3.9}Bootstrap}{20}
 \contentsline {section}{\numberline {3.10}JSON}{20}
 \contentsline {section}{\numberline {3.11}Amazon Web Services intr(AWS)}{21}
 \contentsline {section}{\numberline {3.12}Apache}{21}
 \contentsline {section}{\numberline {3.13}MySQL}{22}
-\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o e implementaci\IeC {\'o}n}{23}
-\contentsline {section}{\numberline {4.1}Arquitectura general}{23}
-\contentsline {section}{\numberline {4.2}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del servidor}{24}
-\contentsline {subsection}{\numberline {4.2.1}Modelos de la base de datos}{24}
-\contentsline {subsection}{\numberline {4.2.2}Tipo de usuarios}{30}
-\contentsline {subsection}{\numberline {4.2.3}Amazon Web Service + Apache}{31}
-\contentsline {section}{\numberline {4.3}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del cliente}{35}
-\contentsline {subsection}{\numberline {4.3.1}Vistas de las p\IeC {\'a}ginas}{36}
-\contentsline {subsubsection}{P\IeC {\'a}gina de inicio}{36}
-\contentsline {subsubsection}{P\IeC {\'a}gina del Perfil de Usuario}{37}
-\contentsline {subsubsection}{P\IeC {\'a}gina del Foro}{40}
-\contentsline {subsubsection}{P\IeC {\'a}gina de Propuestas}{41}
-\contentsline {subsubsection}{P\IeC {\'a}gina de una Propuesta}{42}
-\contentsline {subsubsection}{P\IeC {\'a}gina de Actividades}{44}
-\contentsline {subsubsection}{P\IeC {\'a}gina de una Actividad}{45}
-\contentsline {subsubsection}{P\IeC {\'a}gina de Ofertas}{47}
-\contentsline {subsubsection}{P\IeC {\'a}gina de una Oferta}{49}
-\contentsline {subsubsection}{P\IeC {\'a}gina de Informaci\IeC {\'o}n de Inter\IeC {\'e}s}{50}
-\contentsline {subsubsection}{P\IeC {\'a}gina de una Informaci\IeC {\'o}n de inter\IeC {\'e}s }{52}
-\contentsline {subsubsection}{P\IeC {\'a}gina de Pol\IeC {\'\i }tica de Cookies}{53}
-\contentsline {subsubsection}{P\IeC {\'a}ginas de Sitemaps}{54}
-\contentsline {subsubsection}{Vista del panel de administraci\IeC {\'o}n}{55}
-\contentsline {chapter}{\numberline {5}Evaluaci\IeC {\'o}n del resultado}{57}
-\contentsline {chapter}{\numberline {6}Conclusiones}{59}
-\contentsline {section}{\numberline {6.1}Conocimientos aplicados}{59}
-\contentsline {section}{\numberline {6.2}Conocimientos adquiridos}{60}
-\contentsline {section}{\numberline {6.3}Trabajos futuros}{61}
-\contentsline {chapter}{Bibliograf\'{\i }a}{63}
-\contentsline {chapter}{\numberline {A}Instalaci\IeC {\'o}n y Uso}{65}
-\contentsline {chapter}{\numberline {B}Publicaci\IeC {\'o}n}{67}
+\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o e implementaci\IeC {\'o}n}{25}
+\contentsline {section}{\numberline {4.1}Arquitectura general}{25}
+\contentsline {section}{\numberline {4.2}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del servidor}{26}
+\contentsline {subsection}{\numberline {4.2.1}Modelos de la base de datos}{26}
+\contentsline {subsection}{\numberline {4.2.2}Tipo de usuarios}{32}
+\contentsline {subsection}{\numberline {4.2.3}Amazon Web Service + Apache}{33}
+\contentsline {section}{\numberline {4.3}Dise\IeC {\~n}o e implementaci\IeC {\'o}n del cliente}{37}
+\contentsline {subsection}{\numberline {4.3.1}Vistas de las p\IeC {\'a}ginas}{38}
+\contentsline {subsubsection}{P\IeC {\'a}gina de inicio}{39}
+\contentsline {subsubsection}{P\IeC {\'a}gina del Perfil de Usuario}{39}
+\contentsline {subsubsection}{P\IeC {\'a}gina del Foro}{42}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Propuestas}{43}
+\contentsline {subsubsection}{P\IeC {\'a}gina de una Propuesta}{44}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Actividades}{46}
+\contentsline {subsubsection}{P\IeC {\'a}gina de una Actividad}{47}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Ofertas}{50}
+\contentsline {subsubsection}{P\IeC {\'a}gina de una Oferta}{51}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Informaci\IeC {\'o}n de Inter\IeC {\'e}s}{53}
+\contentsline {subsubsection}{P\IeC {\'a}gina de una Informaci\IeC {\'o}n de inter\IeC {\'e}s }{54}
+\contentsline {subsubsection}{P\IeC {\'a}gina de Pol\IeC {\'\i }tica de Cookies}{56}
+\contentsline {subsubsection}{P\IeC {\'a}ginas de Sitemaps}{59}
+\contentsline {subsubsection}{Vista del panel de administraci\IeC {\'o}n}{59}
+\contentsline {chapter}{\numberline {5}Evaluaci\IeC {\'o}n del resultado}{61}
+\contentsline {chapter}{\numberline {6}Conclusiones}{63}
+\contentsline {section}{\numberline {6.1}Conocimientos aplicados}{63}
+\contentsline {section}{\numberline {6.2}Conocimientos adquiridos}{64}
+\contentsline {section}{\numberline {6.3}Trabajos futuros}{65}
+\contentsline {chapter}{Bibliograf\'{\i }a}{67}
+\contentsline {chapter}{\numberline {A}Instalaci\IeC {\'o}n y Uso}{69}
+\contentsline {chapter}{\numberline {B}Publicaci\IeC {\'o}n}{71}

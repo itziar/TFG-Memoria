@@ -3,35 +3,37 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Base de datos\relax }}{25}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando cat /proc/cpu/info \relax }}{31}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando sudo demidecode -t 4\relax }}{32}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando lsb\_release -a\relax }}{32}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando lscpu\relax }}{33}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando lshw\relax }}{33}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando cat /proc/meminfo\relax }}{34}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Fichero de configuraci\IeC {\'o}n en Apache\relax }}{35}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Hompage\relax }}{37}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Vista del perfil de usuario\relax }}{38}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Vista del perfil de otro usuario distinto\relax }}{38}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Vista de los mensajes\relax }}{39}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Vista de favoritos\relax }}{39}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Vista de actividades registradas\relax }}{39}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Vista del foro\relax }}{41}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Vista de la lista de propuestas\relax }}{42}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Vista de una propuesta\relax }}{43}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Vista de los comentarios a una propuesta\relax }}{44}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Vista de la lista de actividades\relax }}{45}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Vista de una actividad\relax }}{46}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Vista de las miniactividades\relax }}{46}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Vista del registro\relax }}{47}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Vista de los comentarios a una actividad\relax }}{47}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Vista de la lista de ofertas\relax }}{48}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Vista de una oferta\relax }}{50}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Vista de los comentarios a una oferta\relax }}{50}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Vista de la lista de informaciones de inter\IeC {\'e}s\relax }}{51}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Vista de una informaci\IeC {\'o}n de inter\IeC {\'e}s\relax }}{53}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Vista de los comentarios a una informaci\IeC {\'o}n de inter\IeC {\'e}s\relax }}{53}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Esquema de la Base de datos\relax }}{27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando cat /proc/cpu/info \relax }}{33}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando sudo demidecode -t 4\relax }}{34}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando lsb\_release -a\relax }}{34}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando lscpu\relax }}{35}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando lshw\relax }}{35}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Salida de la ejecuci\IeC {\'o}n del comando cat /proc/meminfo\relax }}{36}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Fichero de configuraci\IeC {\'o}n en Apache\relax }}{37}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Hompage\relax }}{39}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Vista del perfil de usuario\relax }}{39}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Vista del perfil de otro usuario distinto\relax }}{40}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Vista de los mensajes\relax }}{40}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Vista de favoritos\relax }}{41}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Vista de actividades registradas\relax }}{41}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Vista del foro\relax }}{42}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Vista de la lista de propuestas\relax }}{43}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Vista de una propuesta\relax }}{44}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Vista de los comentarios a una propuesta\relax }}{45}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Vista de la lista de actividades\relax }}{46}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Vista de una actividad\relax }}{47}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Vista de las miniactividades\relax }}{48}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Vista del registro\relax }}{48}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Vista de los comentarios a una actividad\relax }}{49}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Vista de la lista de ofertas\relax }}{50}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Vista de una oferta\relax }}{51}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Vista de los comentarios a una oferta\relax }}{52}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Vista de la lista de informaciones de inter\IeC {\'e}s\relax }}{53}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Vista de una informaci\IeC {\'o}n de inter\IeC {\'e}s\relax }}{54}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Vista de los comentarios a una informaci\IeC {\'o}n de inter\IeC {\'e}s\relax }}{55}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Vista de la p\IeC {\'a}gina pol\IeC {\'\i }tica de cookies\relax }}{58}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Vista de la parte de administraci\IeC {\'o}n\relax }}{59}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
